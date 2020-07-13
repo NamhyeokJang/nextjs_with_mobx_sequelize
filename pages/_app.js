@@ -3,6 +3,9 @@ import App from "next/app";
 import { Provider } from "mobx-react";
 import initializeStore from '@store'
 
+import 'antd/dist/antd.css'
+import '../styles/vars.css'
+import '../styles/global.css'
 
 class CustomApp extends App {
     mobxStore;
